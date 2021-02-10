@@ -1,5 +1,5 @@
 ist: xenial
-if: branch = master
+if: branch = prueba
 services:
   - postgresql
 addons:
@@ -39,4 +39,4 @@ deploy:
   strategy: git
   api_key: $HEROKU_AUTH_TOKEN
   on:
-    branch: master
+    branch: prueba
