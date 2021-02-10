@@ -35,14 +35,7 @@ script:
   - python-codacy-coverage -r coverage.xml
 deploy:
   provider: heroku
-  app: pruebajossalasedeploy:
-  provider: heroku
   app: pruebajossalase
-  strategy: git
-  api_key: $HEROKU_AUTH_TOKEN
-  on:
-    branch: master
-
   strategy: git
   api_key: $HEROKU_AUTH_TOKEN
   on:
