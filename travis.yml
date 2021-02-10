@@ -1,5 +1,5 @@
 ist: xenial
-if: branch = prueba
+
 services:
   - postgresql
 addons:
