@@ -1,5 +1,5 @@
 ist: xenial
-if: branch = master
+
 services:
   - postgresql
 addons:
@@ -35,7 +35,7 @@ script:
   - python-codacy-coverage -r coverage.xml
 deploy:
   provider: heroku
-  app: EGC-1819-830
+  app: pruebajossalase
   strategy: git
   api_key: $HEROKU_AUTH_TOKEN
   on:
